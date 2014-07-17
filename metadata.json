@@ -1,0 +1,29 @@
+{
+  "name": "compass-rserve",
+  "version": "0.1.0",
+  "author": "compass",
+  "summary": "Module for Rserve installation and configuration",
+  "license": "Apache 2.0",
+  "source": "https://github.com/ubc/puppet-rserve.git",
+  "project_page": "https://github.com/ubc/puppet-rserve",
+  "issues_url": "https://github.com/ubc/puppet-r/issues",
+  "dependencies": [
+    {
+      "name": "puppetlabs-stdlib",
+      "version_requirement": ">= 1.0.0"
+    },
+    {
+      "name": "stahnma-epel",
+      "version_requirement": ">= 0.1.0"
+    },
+    {
+      "name": "forward3ddev-r",
+      "version_requirement": ">= 0.0.2"
+    },
+    {
+      "name": "puppetlabs-firewall",
+      "version_requirement": ">= 1.0.2"
+    },
+  ]
+}
+

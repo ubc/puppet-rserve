@@ -1,0 +1,8 @@
+fixtures:
+  forge_modules:
+    stdlib:   "puppetlabs/stdlib"
+    firewall: "puppetlabs/firewall"
+    r:        "forward3ddev/r"
+    epel:     "stahnma/epel"
+  symlinks:
+    "rserve": "#{source_dir}"
