@@ -8,7 +8,7 @@ describe 'rserve' do
       should contain_class('r')
       should contain_class('rserve::service').with(
         'service_enable' => true,
-        'service_ensure' => 'running',
+        'service_ensure' => 'running'
       )
       should contain_service('rserve').with_ensure('running')
       should contain_file('rserve')
