@@ -7,7 +7,7 @@
 1. [Overview](#overview)
 2. [Setup - The basics of getting started with rserve](#setup)
     * [What rserve affects](#what-rserve-affects)
-    * [Beginning with r](#beginning-with-rserve)
+    * [Beginning with rserve](#beginning-with-rserve)
 3. [Usage - Configuration options and additional functionality](#usage)
 4. [Limitations - OS compatibility, etc.](#limitations)
 5. [Development - Guide for contributing to the module](#development)
