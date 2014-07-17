@@ -19,7 +19,7 @@ describe 'rserve' do
   end
 
   context 'without firewall' do
-    let(:params) do 
+    let(:params) do
         { :manage_firewall => false }
     end
 

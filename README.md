@@ -1,9 +1,11 @@
 # rserve
 
+[![Build Status](https://travis-ci.org/ubc/puppet-rserve.svg?branch=master)](https://travis-ci.org/ubc/puppet-rserve)
+
 #### Table of Contents
 
 1. [Overview](#overview)
-2. [Setup - The basics of getting started with r](#setup)
+2. [Setup - The basics of getting started with rserve](#setup)
     * [What rserve affects](#what-rserve-affects)
     * [Beginning with r](#beginning-with-rserve)
 3. [Usage - Configuration options and additional functionality](#usage)
@@ -41,6 +43,6 @@ This module is tested with CentOS 6, RHEL 6 and Ubuntu 12.04. It should work wit
 
 Fork and send pull request. Any contribution is welcome.
 
-## Release Notes/Contributors/Etc
+## Release Notes
 
 Initial release
