@@ -1,8 +1,8 @@
 fixtures:
-  forge_modules:
-    stdlib:   "puppetlabs/stdlib"
-    firewall: "puppetlabs/firewall"
-    r:        "forward3ddev/r"
-    epel:     "stahnma/epel"
+  repositories:
+    "stdlib": "https://github.com/puppetlabs/puppetlabs-stdlib"
+    "firewall": "https://github.com/puppetlabs/puppetlabs-firewall.git"
+    "r": "https://github.com/forward3d/puppet-r.git"
+    "epel": "https://github.com/stahnma/puppet-module-epel.git"
   symlinks:
     "rserve": "#{source_dir}"
