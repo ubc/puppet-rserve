@@ -6,7 +6,18 @@
   "license": "Apache 2.0",
   "source": "https://github.com/ubc/puppet-rserve.git",
   "project_page": "https://github.com/ubc/puppet-rserve",
-  "issues_url": "https://github.com/ubc/puppet-r/issues",
+  "issues_url": "https://github.com/ubc/puppet-rserve/issues",
+  "tags": ["r", "rserve"],
+  "operatingsystem_support": [
+    {
+    "operatingsystem":"RedHat",
+    "operatingsystemrelease":[ "5.0", "6.0" ]
+    },
+    {
+    "operatingsystem": "Ubuntu",
+    "operatingsystemrelease": [ "12.04", "14.04" ]
+    }
+  ],
   "dependencies": [
     {
       "name": "puppetlabs-stdlib",
@@ -23,7 +34,7 @@
     {
       "name": "puppetlabs-firewall",
       "version_requirement": ">= 1.0.2"
-    },
+    }
   ]
 }
 
