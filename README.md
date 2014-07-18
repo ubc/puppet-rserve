@@ -43,6 +43,27 @@ This module is tested with CentOS 6, RHEL 6 and Ubuntu 12.04. It should work wit
 
 Fork and send pull request. Any contribution is welcome.
 
+    git clone https://github.com/YOUR_GITHUB_NAME/puppet-rserve.git rserve
+    cd rserve
+    vagrant init puppetlabs/centos-6.5-64-puppet
+    # or vagrant init puppetlabs/ubuntu-12.04-64-puppet
+    vagrant up
+    vagrant ssh
+    sudo yum update
+    #sudo apt-get update
+    #sudo apt-get upgrade
+    sudo puppet module install puppetlabs-stdlib
+    sudo puppet module install stahnma-epel
+    sudo puppet module install forward3ddev-r
+    sudo puppet module install puppetlabs-firewall
+    sudo puppet apply --modulepath=/etc/puppet/modules:/vagrant -e “include rserve”
+
+    #to run tests, need to install the gems
+    bundle install
+    bundle exec rake spec
+
+The module can be found in /vagrant
+
 ## Release Notes
 
 Initial release
